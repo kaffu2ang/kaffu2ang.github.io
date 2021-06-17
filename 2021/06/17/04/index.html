@@ -6,15 +6,22 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Archives | Hexo</title>
+  <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="八大基本数据类型int num1 &#x3D; 10; &#x2F;&#x2F;最常用byte num2 &#x3D; 20;short num3 &#x3D; 30;long num4 &#x3D; 30L; &#x2F;&#x2F;Long类型要在数字后面加个L&#x2F;小数:浮点数float num5 450.1F;double num6 &#x3D; 3.141592653589793238462643;  整数拓展:进制二进制0b 十进制 八进制0 十六进制0x 123456int">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/archives/index.html">
+<meta property="og:url" content="http://example.com/2021/06/17/04/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="八大基本数据类型int num1 &#x3D; 10; &#x2F;&#x2F;最常用byte num2 &#x3D; 20;short num3 &#x3D; 30;long num4 &#x3D; 30L; &#x2F;&#x2F;Long类型要在数字后面加个L&#x2F;小数:浮点数float num5 450.1F;double num6 &#x3D; 3.141592653589793238462643;  整数拓展:进制二进制0b 十进制 八进制0 十六进制0x 123456int">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="c:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/1623401566688.png">
+<meta property="og:image" content="c:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/1623403930640.png">
+<meta property="article:published_time" content="2021-06-17T03:58:08.887Z">
+<meta property="article:modified_time" content="2021-06-13T08:13:20.154Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="c:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/1623401566688.png">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -150,235 +157,208 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-04" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="八大基本数据类型"><a href="#八大基本数据类型" class="headerlink" title="八大基本数据类型"></a>八大基本数据类型</h2><p>int num1 = 10; //最常用byte num2 = 20;<br>short num3 = 30;<br>long num4 = 30L; //Long类型要在数字后面加个L/小数:浮点数<br>float num5 450.1F;<br>double num6 = 3.141592653589793238462643;</p>
+<p><img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1623401566688.png" alt="1623401566688"></p>
+<h2 id="整数拓展"><a href="#整数拓展" class="headerlink" title="整数拓展:"></a>整数拓展:</h2><p>进制<br>二进制0b 十进制 八进制0 十六进制0x</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> i = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">int</span> i2 = <span class="number">010</span>;    <span class="comment">//八进制B</span></span><br><span class="line"><span class="keyword">int</span> i3 = <span class="number">0x10</span>;  <span class="comment">//十六进制x0~9A~F 16</span></span><br><span class="line">system.out.println(i);</span><br><span class="line">system.out.println( i2);</span><br><span class="line">System.out.print1n(i3);</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="浮点数拓展"><a href="#浮点数拓展" class="headerlink" title="浮点数拓展"></a>浮点数拓展</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">float</span> f=<span class="number">0.1f</span>		<span class="comment">//0.1</span></span><br><span class="line"><span class="keyword">double</span> d=<span class="number">1.0</span>/<span class="number">10</span>;  <span class="comment">//0.1</span></span><br><span class="line">sout(f==d);  输出结果是<span class="keyword">false</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">float</span> d1=<span class="number">456456456f</span>;</span><br><span class="line"><span class="keyword">float</span> d2=d1+<span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">sout(d1==d2); <span class="comment">//输出结果为true</span></span><br><span class="line"><span class="comment">//float 表现的有限 离散 舍入误差 大约 接近但不等于</span></span><br><span class="line"><span class="comment">//最好不要使用浮点数进行比较</span></span><br><span class="line">∴银行业务不能用<span class="keyword">float</span>和<span class="keyword">double</span></span><br><span class="line">BigDecimal</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h2 id="字符拓展"><a href="#字符拓展" class="headerlink" title="字符拓展"></a>字符拓展</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">char</span> c1 =<span class="string">&#x27;a&#x27;</span>;<span class="keyword">char</span> c2=<span class="string">&#x27;中&#x27;</span>;</span><br><span class="line">System.out.println(c1);</span><br><span class="line">System.out.println( (<span class="keyword">int</span>)c1); /强制换行 <span class="number">97</span></span><br><span class="line">System.out.println(c2);</span><br><span class="line">System.out.println((<span class="keyword">int</span>)c2); /强制换行 <span class="number">20013</span></span><br><span class="line"><span class="comment">//所有的字符本质还是；数字</span></span><br><span class="line"><span class="comment">//编码 unicode 表 ：如65=A  都有对应的关系  2字节  0-65536</span></span><br><span class="line">    </span><br><span class="line"><span class="keyword">char</span> c3 = <span class="string">&#x27; \u0061&#x27;</span>;</span><br><span class="line">system.out.println(c3); <span class="comment">//a</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//转义字符</span></span><br><span class="line"><span class="comment">//\t 制表符 \n</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h2 id="类型转换"><a href="#类型转换" class="headerlink" title="类型转换"></a>类型转换</h2><p><img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1623403930640.png" alt="1623403930640"></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">int</span> i=<span class="number">128</span>;</span><br><span class="line"><span class="keyword">byte</span> b=(<span class="keyword">byte</span>)i; <span class="comment">//溢出了</span></span><br><span class="line"><span class="keyword">double</span> b=i;</span><br><span class="line"><span class="comment">//强制转换 高--低</span></span><br><span class="line"><span class="comment">//自动转换 低--高</span></span><br><span class="line">不能对bool进行转换</span><br><span class="line">不能把类型转换为不相干的类型</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="变量作用域"><a href="#变量作用域" class="headerlink" title="变量作用域"></a>变量作用域</h2><p>public class Variable{<br>    static int allClicks=0;             //类变量 有static</p>
+<p>​    String name;                        //实例对象 </p>
+<p>​    int age;                                //实例对象 成员</p>
+<p>​    String str=”hello world” ; //实例变量  可以不初始化，从属于对象</p>
+<p>​    public void method(){</p>
+<p>​        int i =0;    //局部变量  定义在方法里面，必须声明和初始化值 生命周期再{}之间<br>​    }<br>}</p>
+<h2 id="实例变量的默认初始值"><a href="#实例变量的默认初始值" class="headerlink" title="实例变量的默认初始值"></a>实例变量的默认初始值</h2><p>int 0 </p>
+<p>布尔值默认为false</p>
+<p>除了基本类型其余的默认值都是 如String null</p>
+<p>final 常量不可变</p>
+<p>ctrl+d //复制当前行到下一行</p>
+<p>cast转换</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">long</span> a = <span class="number">123123123123123L</span>;<span class="keyword">int</span> b = <span class="number">123</span>;</span><br><span class="line"><span class="keyword">short</span> c = <span class="number">10</span>;<span class="keyword">byte</span> d = <span class="number">8</span>;</span><br><span class="line">system.out.println(a+b+c+d); <span class="comment">//Long</span></span><br><span class="line">System.out.println(b+c+d); <span class="comment">//int</span></span><br><span class="line">system.out.print1n((c+d));<span class="comment">//Int  short+byte还是转换为int</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="幂运算"><a href="#幂运算" class="headerlink" title="幂运算"></a>幂运算</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Math.pow(<span class="number">2</span>,<span class="number">3</span>); <span class="comment">//2*2*2  工具类</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="短路运算"><a href="#短路运算" class="headerlink" title="短路运算"></a>短路运算</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//短路运算</span></span><br><span class="line"><span class="keyword">int</span> c = <span class="number">5</span>;</span><br><span class="line"><span class="keyword">boolean</span> d = (c&lt;<span class="number">4</span>)&amp;&amp;( c++&lt;<span class="number">4</span>);</span><br><span class="line">system.out.print1n(d);<span class="comment">//false; </span></span><br><span class="line">System.out.println(c);<span class="comment">//5 ∵c&lt;5判断错误了之后，后面就不判断且执行了</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="位运算-效率极高"><a href="#位运算-效率极高" class="headerlink" title="位运算  效率极高"></a>位运算  效率极高</h2><p>A= 0011 1100</p>
+<p>B =0000 1101</p>
+<hr>
+<p>A&amp;B = 0000 1100</p>
+<p>A/ B = 0011 1101</p>
+<p>A^B = 0011 0001</p>
+<p>~B    =1111 0010</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">2</span>*<span class="number">8</span>=<span class="number">16</span>  <span class="number">2</span>*<span class="number">2</span>*<span class="number">2</span>*<span class="number">2</span></span><br><span class="line">sout(<span class="number">2</span>&lt;&lt;<span class="number">3</span>);<span class="comment">//底层是二进制</span></span><br><span class="line">&lt;&lt; *<span class="number">2</span></span><br><span class="line">&gt;&gt; /<span class="number">2</span></span><br><span class="line"><span class="number">0000</span> <span class="number">0001</span>   <span class="comment">//1</span></span><br><span class="line"><span class="number">0000</span> <span class="number">0010</span>	<span class="comment">//2</span></span><br><span class="line"><span class="number">0000</span> <span class="number">0100</span>   <span class="comment">//4</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="字符串连接"><a href="#字符串连接" class="headerlink" title="字符串连接"></a>字符串连接</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//字符串连接符+ , string</span></span><br><span class="line"><span class="keyword">int</span> a=<span class="number">10</span>;</span><br><span class="line"><span class="keyword">int</span> b=<span class="number">20</span>;</span><br><span class="line">system.out.println( <span class="string">&quot;&quot;</span>+a+b); <span class="comment">//1020 字符串拼接了</span></span><br><span class="line">System.out.print1n(a+b+<span class="string">&quot;&quot;</span>);  <span class="comment">//30</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="三目运算符"><a href="#三目运算符" class="headerlink" title="三目运算符"></a>三目运算符</h2><p>String type =score &lt;60?”不及格”:”及格”;</p>
+<h2 id="进入CMD"><a href="#进入CMD" class="headerlink" title="进入CMD"></a>进入CMD</h2><p>再地址如  d:/1java 前面输入cmd</p>
+<h2 id="生成文档"><a href="#生成文档" class="headerlink" title="生成文档"></a>生成文档</h2><p>javadoc -encoding UTF-8 -charset UTF-8 Doc.java</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">new Scanner(System.in); //然后按alt+enter</span><br><span class="line">Scanner scanner = new Scanner(System.in);//转变为</span><br></pre></td></tr></table></figure>
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
       
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2021" class="archive-year">2021</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/06/17/%E5%8D%B8%E8%BD%BDJDK/" class="archive-article-date">
-  	<time datetime="2021-06-17T03:58:08.914Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-06-17</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2021/06/17/04/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/06/17/git/" class="archive-article-date">
-  	<time datetime="2021-06-17T03:58:08.912Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-06-17</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/06/17/blog/" class="archive-article-date">
-  	<time datetime="2021-06-17T03:58:08.911Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-06-17</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
+<nav id="article-nav">
+  
+    <a href="/2021/06/17/05%20Scanner/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          (no title)
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2021/06/17/03%20JDK%20JRE%20JVM/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"></div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/06/17/14%20GUI%20/" class="archive-article-date">
-  	<time datetime="2021-06-17T03:58:08.908Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-06-17</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/06/17/13%20Error%E5%92%8CException/" class="archive-article-date">
-  	<time datetime="2021-06-17T03:58:08.907Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-06-17</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
+        
+        
+    </div>
+</aside>
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/06/17/12%20%E5%86%85%E9%83%A8%E7%B1%BB/" class="archive-article-date">
-  	<time datetime="2021-06-17T03:58:08.904Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-06-17</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/06/17/11%20%E6%8A%BD%E8%B1%A1%E7%B1%BB%E6%8E%A5%E5%8F%A3/" class="archive-article-date">
-  	<time datetime="2021-06-17T03:58:08.902Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-06-17</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/06/17/10%20Static%E5%85%B3%E9%94%AE%E5%AD%97/" class="archive-article-date">
-  	<time datetime="2021-06-17T03:58:08.899Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-06-17</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/06/17/09%20%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1/" class="archive-article-date">
-  	<time datetime="2021-06-17T03:58:08.897Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-06-17</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2021/06/17/08%20%E6%95%B0%E7%BB%84/" class="archive-article-date">
-  	<time datetime="2021-06-17T03:58:08.896Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-06-17</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
   
-    </div></section>
   
 
-    
-    <nav id="page-nav">
-      <span class="page-number current">1</span><a class="page-number" href="/archives/page/2/">2</a><a class="extend next" rel="next" href="/archives/page/2/">Next &amp;raquo;</a>
-    </nav>
+  
+
+  
+
   
 
 
@@ -402,8 +382,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
